@@ -1,14 +1,17 @@
 import React, { Component, useState } from 'react';
 import { View, Text } from 'react-native';
+import weathercodenames from '../assets/weathercodes.json';
+import Ionicons from '@expo/vector-icons/Ionicons';
 
 class WeatherCodeCard extends Component {
+
     render() {
 
-        if (this.props.data == 0){
-        return <Text>{this.props.data}</Text>;
-        } else if (this.props.data == 1){
-        return <Text>{this.props.data}</Text>;
-        }
+        return(
+            <>
+            <Text>{weathercodenames[this.props.data]}</Text><Ionicons name="thunderstorm"/>
+            </>
+        );
     }
 };
 
