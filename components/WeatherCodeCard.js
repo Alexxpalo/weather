@@ -9,7 +9,7 @@ class WeatherCodeCard extends Component {
 
         return(
             <>
-            <Text>{weathercodenames[this.props.data]}</Text><Ionicons name="thunderstorm"/>
+            <Ionicons name={weathercodenames[this.props.data][1]} size={32} color="grey"/><Text>{weathercodenames[this.props.data][0]}</Text>
             </>
         );
     }

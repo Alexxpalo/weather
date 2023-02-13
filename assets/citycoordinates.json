@@ -1,0 +1,1246 @@
+[
+    {
+      "City": "Akaa",
+      "Coordinates": ["61.167145977", "23.865888764"]
+    },
+    {
+      "City": "Alajärvi",
+      "Coordinates": ["63.001273254", "23.817522812"]
+    },
+    {
+      "City": "Alavieska",
+      "Coordinates": ["64.166646246", "24.307213479"]
+    },
+    {
+      "City": "Alavus",
+      "Coordinates": ["62.586161997", "23.616600589"]
+    },
+    {
+      "City": "Asikkala",
+      "Coordinates": ["61.172512361", "25.549142484"]
+    },
+    {
+      "City": "Askola",
+      "Coordinates": ["60.530210718", "25.598880612"]
+    },
+    {
+      "City": "Aura",
+      "Coordinates": ["60.646591846", "22.588991955"]
+    },
+    {
+      "City": "Brändö",
+      "Coordinates": ["60.412662338", "21.043713790"]
+    },
+    {
+      "City": "Eckerö",
+      "Coordinates": ["60.213612052", "19.613138657"]
+    },
+    {
+      "City": "Enonkoski",
+      "Coordinates": ["62.089260323", "28.916904602"]
+    },
+    {
+      "City": "Enontekiö",
+      "Coordinates": ["68.385549758", "23.635307625"]
+    },
+    {
+      "City": "Espoo",
+      "Coordinates": ["60.206376371", "24.656728549"]
+    },
+    {
+      "City": "Eura",
+      "Coordinates": ["61.130003763", "22.135931764"]
+    },
+    {
+      "City": "Eurajoki",
+      "Coordinates": ["61.203547237", "21.734096180"]
+    },
+    {
+      "City": "Evijärvi",
+      "Coordinates": ["63.366901950", "23.473953140"]
+    },
+    {
+      "City": "Finström",
+      "Coordinates": ["60.232262787", "19.992383189"]
+    },
+    {
+      "City": "Forssa",
+      "Coordinates": ["60.814791352", "23.616407300"]
+    },
+    {
+      "City": "Föglö",
+      "Coordinates": ["60.011288651", "20.425481273"]
+    },
+    {
+      "City": "Geta",
+      "Coordinates": ["60.374272036", "19.845773869"]
+    },
+    {
+      "City": "Haapajärvi",
+      "Coordinates": ["63.748514012", "25.319573489"]
+    },
+    {
+      "City": "Haapavesi",
+      "Coordinates": ["64.136145958", "25.364407256"]
+    },
+    {
+      "City": "Hailuoto",
+      "Coordinates": ["65.008596339", "24.711126360"]
+    },
+    {
+      "City": "Halsua",
+      "Coordinates": ["63.460145023", "24.171590087"]
+    },
+    {
+      "City": "Hamina",
+      "Coordinates": ["60.569688146", "27.197900579"]
+    },
+    {
+      "City": "Hammarland",
+      "Coordinates": ["60.218344619", "19.739791930"]
+    },
+    {
+      "City": "Hankasalmi",
+      "Coordinates": ["62.390301152", "26.436191366"]
+    },
+    {
+      "City": "Hanko",
+      "Coordinates": ["59.824968530", "22.966840833"]
+    },
+    {
+      "City": "Harjavalta",
+      "Coordinates": ["61.313701934", "22.141199348"]
+    },
+    {
+      "City": "Hartola",
+      "Coordinates": ["61.583533225", "26.019445705"]
+    },
+    {
+      "City": "Hattula",
+      "Coordinates": ["61.055937939", "24.373688807"]
+    },
+    {
+      "City": "Hausjärvi",
+      "Coordinates": ["60.788352094", "25.024743189"]
+    },
+    {
+      "City": "Heinola",
+      "Coordinates": ["61.205235600", "26.034841245"]
+    },
+    {
+      "City": "Heinävesi",
+      "Coordinates": ["62.425985285", "28.629432602"]
+    },
+    {
+      "City": "Helsinki",
+      "Coordinates": ["60.166640739", "24.943536799"]
+    },
+    {
+      "City": "Hirvensalmi",
+      "Coordinates": ["61.643279652", "26.777369010"]
+    },
+    {
+      "City": "Hollola",
+      "Coordinates": ["60.988606497", "25.512813466"]
+    },
+    {
+      "City": "Honkajoki",
+      "Coordinates": ["61.993243973", "22.263525327"]
+    },
+    {
+      "City": "Huittinen",
+      "Coordinates": ["61.177545666", "22.699443932"]
+    },
+    {
+      "City": "Humppila",
+      "Coordinates": ["60.922008168", "23.367072017"]
+    },
+    {
+      "City": "Hyrynsalmi",
+      "Coordinates": ["64.677259967", "28.490705072"]
+    },
+    {
+      "City": "Hyvinkää",
+      "Coordinates": ["60.631016885", "24.861124319"]
+    },
+    {
+      "City": "Hämeenkyrö",
+      "Coordinates": ["61.640922455", "23.195714863"]
+    },
+    {
+      "City": "Hämeenlinna",
+      "Coordinates": ["60.996174323", "24.464424988"]
+    },
+    {
+      "City": "Ii",
+      "Coordinates": ["65.322611335", "25.374983789"]
+    },
+    {
+      "City": "Iisalmi",
+      "Coordinates": ["63.559688616", "27.186983669"]
+    },
+    {
+      "City": "Iitti",
+      "Coordinates": ["60.890805141", "26.338692150"]
+    },
+    {
+      "City": "Ikaalinen",
+      "Coordinates": ["61.768251116", "23.074590925"]
+    },
+    {
+      "City": "Ilmajoki",
+      "Coordinates": ["62.733541324", "22.577475532"]
+    },
+    {
+      "City": "Ilomantsi",
+      "Coordinates": ["62.672850851", "30.926797320"]
+    },
+    {
+      "City": "Imatra",
+      "Coordinates": ["61.171527381", "28.769224555"]
+    },
+    {
+      "City": "Inari",
+      "Coordinates": ["68.905469786", "27.017602211"]
+    },
+    {
+      "City": "Inkoo",
+      "Coordinates": ["60.044664081", "24.006574663"]
+    },
+    {
+      "City": "Isojoki",
+      "Coordinates": ["62.115137142", "21.958478468"]
+    },
+    {
+      "City": "Isokyrö",
+      "Coordinates": ["63.000103009", "22.318211434"]
+    },
+    {
+      "City": "Janakkala",
+      "Coordinates": ["60.921846055", "24.647706584"]
+    },
+    {
+      "City": "Joensuu",
+      "Coordinates": ["62.602079226", "29.759679275"]
+    },
+    {
+      "City": "Jokioinen",
+      "Coordinates": ["60.805162808", "23.490085206"]
+    },
+    {
+      "City": "Jomala",
+      "Coordinates": ["60.150434190", "19.952566320"]
+    },
+    {
+      "City": "Joroinen",
+      "Coordinates": ["62.179506084", "27.826421809"]
+    },
+    {
+      "City": "Joutsa",
+      "Coordinates": ["61.740271260", "26.110981259"]
+    },
+    {
+      "City": "Juuka",
+      "Coordinates": ["63.239859772", "29.254325823"]
+    },
+    {
+      "City": "Juupajoki",
+      "Coordinates": ["61.797913262", "24.369974148"]
+    },
+    {
+      "City": "Juva",
+      "Coordinates": ["61.897472595", "27.857335654"]
+    },
+    {
+      "City": "Jyväskylä",
+      "Coordinates": ["62.241677684", "25.749498121"]
+    },
+    {
+      "City": "Jämijärvi",
+      "Coordinates": ["61.820221688", "22.691024601"]
+    },
+    {
+      "City": "Jämsä",
+      "Coordinates": ["61.864256654", "25.190231473"]
+    },
+    {
+      "City": "Järvenpää",
+      "Coordinates": ["60.481098394", "25.100747410"]
+    },
+    {
+      "City": "Kaarina",
+      "Coordinates": ["60.407620851", "22.371004907"]
+    },
+    {
+      "City": "Kaavi",
+      "Coordinates": ["62.974976715", "28.480838102"]
+    },
+    {
+      "City": "Kajaani",
+      "Coordinates": ["64.226733925", "27.728046683"]
+    },
+    {
+      "City": "Kalajoki",
+      "Coordinates": ["64.260430362", "23.949156078"]
+    },
+    {
+      "City": "Kangasala",
+      "Coordinates": ["61.463200572", "24.067165047"]
+    },
+    {
+      "City": "Kangasniemi",
+      "Coordinates": ["61.988644474", "26.642473064"]
+    },
+    {
+      "City": "Kankaanpää",
+      "Coordinates": ["61.803357693", "22.395162560"]
+    },
+    {
+      "City": "Kannonkoski",
+      "Coordinates": ["62.976573477", "25.263430615"]
+    },
+    {
+      "City": "Kannus",
+      "Coordinates": ["63.901745411", "23.915054223"]
+    },
+    {
+      "City": "Karijoki",
+      "Coordinates": ["62.308417557", "21.704898532"]
+    },
+    {
+      "City": "Karkkila",
+      "Coordinates": ["60.534934578", "24.208211330"]
+    },
+    {
+      "City": "Karstula",
+      "Coordinates": ["62.876603857", "24.800504818"]
+    },
+    {
+      "City": "Karvia",
+      "Coordinates": ["62.138536127", "22.562560142"]
+    },
+    {
+      "City": "Kaskinen",
+      "Coordinates": ["62.382871885", "21.225392339"]
+    },
+    {
+      "City": "Kauhajoki",
+      "Coordinates": ["62.425088156", "22.177243878"]
+    },
+    {
+      "City": "Kauhava",
+      "Coordinates": ["63.100920012", "23.065244367"]
+    },
+    {
+      "City": "Kauniainen",
+      "Coordinates": ["60.210640465", "24.727752700"]
+    },
+    {
+      "City": "Kaustinen",
+      "Coordinates": ["63.548090648", "23.699878510"]
+    },
+    {
+      "City": "Keitele",
+      "Coordinates": ["63.179589177", "26.349949125"]
+    },
+    {
+      "City": "Kemi",
+      "Coordinates": ["65.733635445", "24.563415560"]
+    },
+    {
+      "City": "Kemijärvi",
+      "Coordinates": ["66.715018519", "27.430577528"]
+    },
+    {
+      "City": "Keminmaa",
+      "Coordinates": ["65.798981364", "24.542629190"]
+    },
+    {
+      "City": "Kemiönsaari",
+      "Coordinates": ["60.163845255", "22.728934263"]
+    },
+    {
+      "City": "Kempele",
+      "Coordinates": ["64.912672171", "25.509951880"]
+    },
+    {
+      "City": "Kerava",
+      "Coordinates": ["60.404868786", "25.103548718"]
+    },
+    {
+      "City": "Keuruu",
+      "Coordinates": ["62.260208877", "24.706448341"]
+    },
+    {
+      "City": "Kihniö",
+      "Coordinates": ["62.203176316", "23.177811003"]
+    },
+    {
+      "City": "Kinnula",
+      "Coordinates": ["63.367271175", "24.969957600"]
+    },
+    {
+      "City": "Kirkkonummi",
+      "Coordinates": ["60.120657960", "24.438913078"]
+    },
+    {
+      "City": "Kitee",
+      "Coordinates": ["62.096690509", "30.145386285"]
+    },
+    {
+      "City": "Kittilä",
+      "Coordinates": ["67.653127857", "24.911437456"]
+    },
+    {
+      "City": "Kiuruvesi",
+      "Coordinates": ["63.651462106", "26.622489907"]
+    },
+    {
+      "City": "Kivijärvi",
+      "Coordinates": ["63.122924860", "25.070968069"]
+    },
+    {
+      "City": "Kokemäki",
+      "Coordinates": ["61.256136349", "22.350459185"]
+    },
+    {
+      "City": "Kokkola",
+      "Coordinates": ["63.837583062", "23.131961664"]
+    },
+    {
+      "City": "Kolari",
+      "Coordinates": ["67.331718287", "23.788974026"]
+    },
+    {
+      "City": "Konnevesi",
+      "Coordinates": ["62.627334113", "26.289457254"]
+    },
+    {
+      "City": "Kontiolahti",
+      "Coordinates": ["62.766465365", "29.844407795"]
+    },
+    {
+      "City": "Korsnäs",
+      "Coordinates": ["62.785052299", "21.188728029"]
+    },
+    {
+      "City": "Koski Tl",
+      "Coordinates": ["60.652981939", "23.137367393"]
+    },
+    {
+      "City": "Kotka",
+      "Coordinates": ["60.465520795", "26.941152634"]
+    },
+    {
+      "City": "Kouvola",
+      "Coordinates": ["60.866825214", "26.705598153"]
+    },
+    {
+      "City": "Kristiinankaupunki",
+      "Coordinates": ["62.274742151", "21.378547080"]
+    },
+    {
+      "City": "Kruunupyy",
+      "Coordinates": ["63.727817733", "23.033771859"]
+    },
+    {
+      "City": "Kuhmo",
+      "Coordinates": ["64.125288629", "29.524367548"]
+    },
+    {
+      "City": "Kuhmoinen",
+      "Coordinates": ["61.562425983", "25.175665612"]
+    },
+    {
+      "City": "Kumlinge",
+      "Coordinates": ["60.259692477", "20.778313171"]
+    },
+    {
+      "City": "Kuopio",
+      "Coordinates": ["62.892982923", "27.688934744"]
+    },
+    {
+      "City": "Kuortane",
+      "Coordinates": ["62.807410615", "23.506393077"]
+    },
+    {
+      "City": "Kurikka",
+      "Coordinates": ["62.618893949", "22.398773710"]
+    },
+    {
+      "City": "Kustavi",
+      "Coordinates": ["60.546714695", "21.358881644"]
+    },
+    {
+      "City": "Kuusamo",
+      "Coordinates": ["65.964424921", "29.188616060"]
+    },
+    {
+      "City": "Kyyjärvi",
+      "Coordinates": ["63.043410994", "24.566437311"]
+    },
+    {
+      "City": "Kärkölä",
+      "Coordinates": ["60.868376480", "25.273377105"]
+    },
+    {
+      "City": "Kärsämäki",
+      "Coordinates": ["63.980587073", "25.759667454"]
+    },
+    {
+      "City": "Kökar",
+      "Coordinates": ["59.920278312", "20.908372757"]
+    },
+    {
+      "City": "Lahti",
+      "Coordinates": ["60.980380564", "25.654987962"]
+    },
+    {
+      "City": "Laihia",
+      "Coordinates": ["62.977956713", "22.011173105"]
+    },
+    {
+      "City": "Laitila",
+      "Coordinates": ["60.875860346", "21.690233379"]
+    },
+    {
+      "City": "Lapinjärvi",
+      "Coordinates": ["60.624363429", "26.201405459"]
+    },
+    {
+      "City": "Lapinlahti",
+      "Coordinates": ["63.364517752", "27.387415475"]
+    },
+    {
+      "City": "Lappajärvi",
+      "Coordinates": ["63.217602823", "23.632849978"]
+    },
+    {
+      "City": "Lappeenranta",
+      "Coordinates": ["61.058749724", "28.187689913"]
+    },
+    {
+      "City": "Lapua",
+      "Coordinates": ["62.970168655", "23.007570333"]
+    },
+    {
+      "City": "Laukaa",
+      "Coordinates": ["62.413528005", "25.957777304"]
+    },
+    {
+      "City": "Lemi",
+      "Coordinates": ["61.061522998", "27.804960542"]
+    },
+    {
+      "City": "Lemland",
+      "Coordinates": ["60.068453521", "20.099599382"]
+    },
+    {
+      "City": "Lempäälä",
+      "Coordinates": ["61.312525626", "23.755748116"]
+    },
+    {
+      "City": "Leppävirta",
+      "Coordinates": ["62.491829038", "27.788663006"]
+    },
+    {
+      "City": "Lestijärvi",
+      "Coordinates": ["63.524801746", "24.665803320"]
+    },
+    {
+      "City": "Lieksa",
+      "Coordinates": ["63.317804542", "30.028096821"]
+    },
+    {
+      "City": "Lieto",
+      "Coordinates": ["60.506876265", "22.455932813"]
+    },
+    {
+      "City": "Liminka",
+      "Coordinates": ["64.809794749", "25.411946267"]
+    },
+    {
+      "City": "Liperi",
+      "Coordinates": ["62.534480932", "29.367861963"]
+    },
+    {
+      "City": "Lohja",
+      "Coordinates": ["60.250916253", "24.065782053"]
+    },
+    {
+      "City": "Loimaa",
+      "Coordinates": ["60.851362252", "23.058593858"]
+    },
+    {
+      "City": "Loppi",
+      "Coordinates": ["60.717556416", "24.443566270"]
+    },
+    {
+      "City": "Loviisa",
+      "Coordinates": ["60.457732981", "26.223660363"]
+    },
+    {
+      "City": "Luhanka",
+      "Coordinates": ["61.796805591", "25.703825319"]
+    },
+    {
+      "City": "Lumijoki",
+      "Coordinates": ["64.837617135", "25.187125981"]
+    },
+    {
+      "City": "Lumparland",
+      "Coordinates": ["60.117402400", "20.258892131"]
+    },
+    {
+      "City": "Luoto",
+      "Coordinates": ["63.755494342", "22.746684981"]
+    },
+    {
+      "City": "Luumäki",
+      "Coordinates": ["60.920924640", "27.559740129"]
+    },
+    {
+      "City": "Maalahti",
+      "Coordinates": ["62.942910055", "21.552851475"]
+    },
+    {
+      "City": "Maarianhamina",
+      "Coordinates": ["60.101520836", "19.942267834"]
+    },
+    {
+      "City": "Marttila",
+      "Coordinates": ["60.585411972", "22.898967272"]
+    },
+    {
+      "City": "Masku",
+      "Coordinates": ["60.570991977", "22.098688118"]
+    },
+    {
+      "City": "Merijärvi",
+      "Coordinates": ["64.297718020", "24.441848134"]
+    },
+    {
+      "City": "Merikarvia",
+      "Coordinates": ["61.860339690", "21.505430059"]
+    },
+    {
+      "City": "Miehikkälä",
+      "Coordinates": ["60.669224483", "27.696366399"]
+    },
+    {
+      "City": "Mikkeli",
+      "Coordinates": ["61.687726895", "27.273224374"]
+    },
+    {
+      "City": "Muhos",
+      "Coordinates": ["64.808918576", "25.990050022"]
+    },
+    {
+      "City": "Multia",
+      "Coordinates": ["62.408697501", "24.794621331"]
+    },
+    {
+      "City": "Muonio",
+      "Coordinates": ["67.959275326", "23.677223262"]
+    },
+    {
+      "City": "Mustasaari",
+      "Coordinates": ["63.114054101", "21.680745161"]
+    },
+    {
+      "City": "Muurame",
+      "Coordinates": ["62.130508880", "25.673565080"]
+    },
+    {
+      "City": "Mynämäki",
+      "Coordinates": ["60.678732788", "21.987506589"]
+    },
+    {
+      "City": "Myrskylä",
+      "Coordinates": ["60.670439657", "25.852102173"]
+    },
+    {
+      "City": "Mäntsälä",
+      "Coordinates": ["60.636084980", "25.320204692"]
+    },
+    {
+      "City": "Mänttä-Vilppula",
+      "Coordinates": ["62.036948707", "24.553095512"]
+    },
+    {
+      "City": "Mäntyharju",
+      "Coordinates": ["61.418280940", "26.875355649"]
+    },
+    {
+      "City": "Naantali",
+      "Coordinates": ["60.467709253", "22.018224718"]
+    },
+    {
+      "City": "Nakkila",
+      "Coordinates": ["61.366902193", "22.004075891"]
+    },
+    {
+      "City": "Nivala",
+      "Coordinates": ["63.929637787", "24.953943761"]
+    },
+    {
+      "City": "Nokia",
+      "Coordinates": ["61.478773769", "23.508499404"]
+    },
+    {
+      "City": "Nousiainen",
+      "Coordinates": ["60.599114832", "22.082180366"]
+    },
+    {
+      "City": "Nurmes",
+      "Coordinates": ["63.544266312", "29.132995571"]
+    },
+    {
+      "City": "Nurmijärvi",
+      "Coordinates": ["60.460806119", "24.807369231"]
+    },
+    {
+      "City": "Närpiö",
+      "Coordinates": ["62.473293481", "21.336718308"]
+    },
+    {
+      "City": "Orimattila",
+      "Coordinates": ["60.804022140", "25.734288563"]
+    },
+    {
+      "City": "Oripää",
+      "Coordinates": ["60.856350309", "22.697411262"]
+    },
+    {
+      "City": "Orivesi",
+      "Coordinates": ["61.677407146", "24.357389414"]
+    },
+    {
+      "City": "Oulainen",
+      "Coordinates": ["64.266570168", "24.816231983"]
+    },
+    {
+      "City": "Oulu",
+      "Coordinates": ["65.013784817", "25.472099070"]
+    },
+    {
+      "City": "Outokumpu",
+      "Coordinates": ["62.726024464", "29.015423401"]
+    },
+    {
+      "City": "Padasjoki",
+      "Coordinates": ["61.351408456", "25.277610756"]
+    },
+    {
+      "City": "Paimio",
+      "Coordinates": ["60.455410664", "22.691146855"]
+    },
+    {
+      "City": "Paltamo",
+      "Coordinates": ["64.409447258", "27.832162935"]
+    },
+    {
+      "City": "Parainen",
+      "Coordinates": ["60.299124907", "22.302301700"]
+    },
+    {
+      "City": "Parikkala",
+      "Coordinates": ["61.555129630", "29.501065813"]
+    },
+    {
+      "City": "Parkano",
+      "Coordinates": ["62.010623403", "23.021041049"]
+    },
+    {
+      "City": "Pedersören kunta",
+      "Coordinates": ["63.601233473", "22.791289301"]
+    },
+    {
+      "City": "Pelkosenniemi",
+      "Coordinates": ["67.109192048", "27.512878531"]
+    },
+    {
+      "City": "Pello",
+      "Coordinates": ["66.775583504", "23.963477750"]
+    },
+    {
+      "City": "Perho",
+      "Coordinates": ["63.215274507", "24.423163042"]
+    },
+    {
+      "City": "Pertunmaa",
+      "Coordinates": ["61.503094056", "26.477987839"]
+    },
+    {
+      "City": "Petäjävesi",
+      "Coordinates": ["62.256663764", "25.183606514"]
+    },
+    {
+      "City": "Pieksämäki",
+      "Coordinates": ["62.298590826", "27.155481907"]
+    },
+    {
+      "City": "Pielavesi",
+      "Coordinates": ["63.232348566", "26.755606074"]
+    },
+    {
+      "City": "Pietarsaari",
+      "Coordinates": ["63.675221726", "22.702931738"]
+    },
+    {
+      "City": "Pihtipudas",
+      "Coordinates": ["63.370334395", "25.574614233"]
+    },
+    {
+      "City": "Pirkkala",
+      "Coordinates": ["61.465248956", "23.645483231"]
+    },
+    {
+      "City": "Polvijärvi",
+      "Coordinates": ["62.856826994", "29.369602563"]
+    },
+    {
+      "City": "Pomarkku",
+      "Coordinates": ["61.694846754", "22.010453708"]
+    },
+    {
+      "City": "Pori",
+      "Coordinates": ["61.483726303", "21.795900114"]
+    },
+    {
+      "City": "Pornainen",
+      "Coordinates": ["60.476898450", "25.372932372"]
+    },
+    {
+      "City": "Porvoo",
+      "Coordinates": ["60.395371935", "25.666559544"]
+    },
+    {
+      "City": "Posio",
+      "Coordinates": ["66.109736985", "28.173906419"]
+    },
+    {
+      "City": "Pudasjärvi",
+      "Coordinates": ["65.360947120", "26.999243541"]
+    },
+    {
+      "City": "Pukkila",
+      "Coordinates": ["60.645352853", "25.580407556"]
+    },
+    {
+      "City": "Punkalaidun",
+      "Coordinates": ["61.113272934", "23.100542189"]
+    },
+    {
+      "City": "Puolanka",
+      "Coordinates": ["64.868658767", "27.669071121"]
+    },
+    {
+      "City": "Puumala",
+      "Coordinates": ["61.521855331", "28.179971761"]
+    },
+    {
+      "City": "Pyhtää",
+      "Coordinates": ["60.492210487", "26.544880023"]
+    },
+    {
+      "City": "Pyhäjoki",
+      "Coordinates": ["64.465163558", "24.259197182"]
+    },
+    {
+      "City": "Pyhäjärvi",
+      "Coordinates": ["63.681835448", "25.985775658"]
+    },
+    {
+      "City": "Pyhäntä",
+      "Coordinates": ["64.099460341", "26.329977857"]
+    },
+    {
+      "City": "Pyhäranta",
+      "Coordinates": ["60.948266485", "21.440934529"]
+    },
+    {
+      "City": "Pälkäne",
+      "Coordinates": ["61.336821181", "24.270409233"]
+    },
+    {
+      "City": "Pöytyä",
+      "Coordinates": ["60.721369364", "22.599537679"]
+    },
+    {
+      "City": "Raahe",
+      "Coordinates": ["64.687734335", "24.478273101"]
+    },
+    {
+      "City": "Raasepori",
+      "Coordinates": ["59.974552922", "23.436228080"]
+    },
+    {
+      "City": "Raisio",
+      "Coordinates": ["60.486079651", "22.171068833"]
+    },
+    {
+      "City": "Rantasalmi",
+      "Coordinates": ["62.063413397", "28.304229966"]
+    },
+    {
+      "City": "Ranua",
+      "Coordinates": ["65.927505623", "26.518416699"]
+    },
+    {
+      "City": "Rauma",
+      "Coordinates": ["61.128737875", "21.511126919"]
+    },
+    {
+      "City": "Rautalampi",
+      "Coordinates": ["62.621137137", "26.835420999"]
+    },
+    {
+      "City": "Rautavaara",
+      "Coordinates": ["63.494210301", "28.298223078"]
+    },
+    {
+      "City": "Rautjärvi",
+      "Coordinates": ["61.433471798", "29.367915250"]
+    },
+    {
+      "City": "Reisjärvi",
+      "Coordinates": ["63.604386795", "24.937851054"]
+    },
+    {
+      "City": "Riihimäki",
+      "Coordinates": ["60.736737225", "24.775321449"]
+    },
+    {
+      "City": "Ristijärvi",
+      "Coordinates": ["64.505096191", "28.211768863"]
+    },
+    {
+      "City": "Rovaniemi",
+      "Coordinates": ["66.502790259", "25.728478856"]
+    },
+    {
+      "City": "Ruokolahti",
+      "Coordinates": ["61.292264125", "28.815799538"]
+    },
+    {
+      "City": "Ruovesi",
+      "Coordinates": ["61.984488222", "24.068811837"]
+    },
+    {
+      "City": "Rusko",
+      "Coordinates": ["60.542439512", "22.222515059"]
+    },
+    {
+      "City": "Rääkkylä",
+      "Coordinates": ["62.312677024", "29.626058461"]
+    },
+    {
+      "City": "Saarijärvi",
+      "Coordinates": ["62.705523683", "25.253902000"]
+    },
+    {
+      "City": "Salla",
+      "Coordinates": ["66.830971278", "28.669933096"]
+    },
+    {
+      "City": "Salo",
+      "Coordinates": ["60.384373601", "23.126727127"]
+    },
+    {
+      "City": "Saltvik",
+      "Coordinates": ["60.275214843", "20.059115249"]
+    },
+    {
+      "City": "Sastamala",
+      "Coordinates": ["61.340225146", "22.906437534"]
+    },
+    {
+      "City": "Sauvo",
+      "Coordinates": ["60.344506715", "22.691750338"]
+    },
+    {
+      "City": "Savitaipale",
+      "Coordinates": ["61.198742149", "27.686019135"]
+    },
+    {
+      "City": "Savonlinna",
+      "Coordinates": ["61.869802657", "28.878498290"]
+    },
+    {
+      "City": "Savukoski",
+      "Coordinates": ["67.292004821", "28.164370823"]
+    },
+    {
+      "City": "Seinäjoki",
+      "Coordinates": ["62.786662897", "22.842279603"]
+    },
+    {
+      "City": "Sievi",
+      "Coordinates": ["63.906281167", "24.521156852"]
+    },
+    {
+      "City": "Siikainen",
+      "Coordinates": ["61.877660372", "21.823140984"]
+    },
+    {
+      "City": "Siikajoki",
+      "Coordinates": ["64.663838767", "25.103293299"]
+    },
+    {
+      "City": "Siikalatva",
+      "Coordinates": ["64.272030170", "25.863775714"]
+    },
+    {
+      "City": "Siilinjärvi",
+      "Coordinates": ["63.073664705", "27.659698525"]
+    },
+    {
+      "City": "Simo",
+      "Coordinates": ["65.661270047", "25.062297166"]
+    },
+    {
+      "City": "Sipoo",
+      "Coordinates": ["60.376856973", "25.268516114"]
+    },
+    {
+      "City": "Siuntio",
+      "Coordinates": ["60.138017546", "24.224863347"]
+    },
+    {
+      "City": "Sodankylä",
+      "Coordinates": ["67.414920225", "26.590673697"]
+    },
+    {
+      "City": "Soini",
+      "Coordinates": ["62.872972290", "24.210173232"]
+    },
+    {
+      "City": "Somero",
+      "Coordinates": ["60.628290724", "23.517691265"]
+    },
+    {
+      "City": "Sonkajärvi",
+      "Coordinates": ["63.669163025", "27.523742906"]
+    },
+    {
+      "City": "Sotkamo",
+      "Coordinates": ["64.132024970", "28.387689851"]
+    },
+    {
+      "City": "Sottunga",
+      "Coordinates": ["60.129987500", "20.667418704"]
+    },
+    {
+      "City": "Sulkava",
+      "Coordinates": ["61.789726328", "28.378042315"]
+    },
+    {
+      "City": "Sund",
+      "Coordinates": ["60.250200171", "20.116293532"]
+    },
+    {
+      "City": "Suomussalmi",
+      "Coordinates": ["64.883821118", "28.904794739"]
+    },
+    {
+      "City": "Suonenjoki",
+      "Coordinates": ["62.623037446", "27.127576934"]
+    },
+    {
+      "City": "Sysmä",
+      "Coordinates": ["61.503771936", "25.683702910"]
+    },
+    {
+      "City": "Säkylä",
+      "Coordinates": ["61.048361211", "22.336785897"]
+    },
+    {
+      "City": "Taipalsaari",
+      "Coordinates": ["61.161330352", "28.057579346"]
+    },
+    {
+      "City": "Taivalkoski",
+      "Coordinates": ["65.576252124", "28.240598067"]
+    },
+    {
+      "City": "Taivassalo",
+      "Coordinates": ["60.561807633", "21.611197663"]
+    },
+    {
+      "City": "Tammela",
+      "Coordinates": ["60.808134311", "23.760277513"]
+    },
+    {
+      "City": "Tampere",
+      "Coordinates": ["61.497742570", "23.761290078"]
+    },
+    {
+      "City": "Tervo",
+      "Coordinates": ["62.952145240", "26.753932331"]
+    },
+    {
+      "City": "Tervola",
+      "Coordinates": ["66.087024017", "24.811064390"]
+    },
+    {
+      "City": "Teuva",
+      "Coordinates": ["62.484761491", "21.747190967"]
+    },
+    {
+      "City": "Tohmajärvi",
+      "Coordinates": ["62.226235418", "30.333057263"]
+    },
+    {
+      "City": "Toholampi",
+      "Coordinates": ["63.771687856", "24.250504148"]
+    },
+    {
+      "City": "Toivakka",
+      "Coordinates": ["62.097929789", "26.082544741"]
+    },
+    {
+      "City": "Tornio",
+      "Coordinates": ["65.849730180", "24.144091609"]
+    },
+    {
+      "City": "Turku",
+      "Coordinates": ["60.451690351", "22.266866666"]
+    },
+    {
+      "City": "Tuusniemi",
+      "Coordinates": ["62.812406598", "28.488250625"]
+    },
+    {
+      "City": "Tuusula",
+      "Coordinates": ["60.402369377", "25.025142036"]
+    },
+    {
+      "City": "Tyrnävä",
+      "Coordinates": ["64.763363971", "25.652633446"]
+    },
+    {
+      "City": "Ulvila",
+      "Coordinates": ["61.432652934", "21.888033305"]
+    },
+    {
+      "City": "Urjala",
+      "Coordinates": ["61.081131717", "23.549311266"]
+    },
+    {
+      "City": "Utajärvi",
+      "Coordinates": ["64.761695580", "26.416907969"]
+    },
+    {
+      "City": "Utsjoki",
+      "Coordinates": ["69.907828523", "27.026541275"]
+    },
+    {
+      "City": "Uurainen",
+      "Coordinates": ["62.500806390", "25.438518873"]
+    },
+    {
+      "City": "Uusikaarlepyy",
+      "Coordinates": ["63.523125804", "22.530086009"]
+    },
+    {
+      "City": "Uusikaupunki",
+      "Coordinates": ["60.801207736", "21.407727115"]
+    },
+    {
+      "City": "Vaala",
+      "Coordinates": ["64.560942154", "26.840673725"]
+    },
+    {
+      "City": "Vaasa",
+      "Coordinates": ["63.092588875", "21.615874122"]
+    },
+    {
+      "City": "Valkeakoski",
+      "Coordinates": ["61.270053249", "24.029248502"]
+    },
+    {
+      "City": "Valtimo",
+      "Coordinates": ["63.680306323", "28.813705084"]
+    },
+    {
+      "City": "Vantaa",
+      "Coordinates": ["60.298133721", "25.006641332"]
+    },
+    {
+      "City": "Varkaus",
+      "Coordinates": ["62.313950665", "27.888587335"]
+    },
+    {
+      "City": "Vehmaa",
+      "Coordinates": ["60.685902746", "21.712512133"]
+    },
+    {
+      "City": "Vesanto",
+      "Coordinates": ["62.931030440", "26.412849105"]
+    },
+    {
+      "City": "Vesilahti",
+      "Coordinates": ["61.305583862", "23.627636445"]
+    },
+    {
+      "City": "Veteli",
+      "Coordinates": ["63.475287314", "23.788625120"]
+    },
+    {
+      "City": "Vieremä",
+      "Coordinates": ["63.744069514", "27.005160452"]
+    },
+    {
+      "City": "Vihti",
+      "Coordinates": ["60.416791924", "24.319858395"]
+    },
+    {
+      "City": "Viitasaari",
+      "Coordinates": ["63.082792009", "25.855167908"]
+    },
+    {
+      "City": "Vimpeli",
+      "Coordinates": ["63.161927977", "23.820600738"]
+    },
+    {
+      "City": "Virolahti",
+      "Coordinates": ["60.582071101", "27.708871595"]
+    },
+    {
+      "City": "Virrat",
+      "Coordinates": ["62.238484560", "23.773747693"]
+    },
+    {
+      "City": "Vårdö",
+      "Coordinates": ["60.244351018", "20.375338092"]
+    },
+    {
+      "City": "Vöyri",
+      "Coordinates": ["63.132068002", "22.252456379"]
+    },
+    {
+      "City": "Ylitornio",
+      "Coordinates": ["66.323044983", "23.673012317"]
+    },
+    {
+      "City": "Ylivieska",
+      "Coordinates": ["64.072284496", "24.533690188"]
+    },
+    {
+      "City": "Ylöjärvi",
+      "Coordinates": ["61.557156020", "23.596580124"]
+    },
+    {
+      "City": "Ypäjä",
+      "Coordinates": ["60.805227741", "23.272438379"]
+    },
+    {
+      "City": "Ähtäri",
+      "Coordinates": ["62.552859290", "24.075018434"]
+    },
+    {
+      "City": "Äänekoski",
+      "Coordinates": ["62.603307432", "25.724831350"]
+    }
+  ]
