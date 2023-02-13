@@ -18,17 +18,10 @@ export default function App() {
     const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=65.01&longitude=25.47&hourly=temperature_2m,weathercode,windspeed_10m&current_weather=true&windspeed_unit=ms&timezone=Europe%2FHelsinki');
     const json = await response.json();
     setData(json);
-
   }
 
   useEffect(() => {
-    getWeather().then(() => {
-      const weatherDate = new Date(data.current_weather.time);
-      const date = weatherDate.toLocaleDateString('fi-FI', {weekday: 'long'});
-      const time = weatherDate.toLocaleTimeString('fi-FI', {hour: '2-digit', minute: '2-digit'});
-      setDate(date);
-      setTime(time);
-  });
+    getWeather();
   }, []);
 
   return (
