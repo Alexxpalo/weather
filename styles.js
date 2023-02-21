@@ -2,87 +2,69 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        flexDirection: 'column',
         backgroundColor: '#EDECE3',
         alignItems: 'center',
         justifyContent: 'center',
     },
-    headerLocation: {
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'center',
+    background: {
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        top: 0,
+        height: '100%',
     },
-    headerContainer: {
-        backgroundColor: 'white',
-        flexDirection: 'row',
-        alignItems: 'center',
+    loaded: {
+        height: '100%',
         width: '100%',
-        justifyContent: 'space-around',
-        margin: 30,
-        paddingVertical: 5,
-    },
-    displayData: {
-        backgroundColor: 'white',
-        flexDirection: 'row',
-        alignItems: 'center',
-        width: '75%',
-        justifyContent: 'space-between',
-        margin: 5,
-        padding: 10,
-    },
-    displayDataRow: {
-        backgroundColor: '#EDECE3',
-        flexDirection: 'row',
-        alignItems: 'center',
-        width: '75%',
-        justifyContent: 'space-between',
-    },
-    displayDataRowItem: {
-        backgroundColor: 'white',
-        flexDirection: 'row',
-        alignItems: 'center',
-        width: '45%',
-        justifyContent: 'space-evenly',
-        padding: 5,
-    },
-    headerText: {
-        fontSize: 20,
-        color: 'grey',
-        fontWeight: 'bold',
-    },
-    cityInput: {
-        borderBottomColor: 'grey',
-        borderBottomWidth: 1
-    },
-    headerLine: {
-        backgroundColor: '#EDECE3',
-        width: 1,
-        height: 40,
-    },
-    sunDataContainer: {
-        backgroundColor: 'white',
+        display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        width: '75%',
-        justifyContent: 'space-between',
-        margin: 5,
-        padding: 10,
+        justifyContent: 'center',
+        paddingHorizontal: 35,
+        paddingVertical: 150,
     },
-    sunDataRow: {
-        backgroundColor: '#EDECE3',
-        flexDirection: 'row',
-        alignItems: 'center',
+    item1: {
+        backgroundColor: 'rgba(255, 255, 255, 0.5)',
         width: '100%',
-        justifyContent: 'space-between',
-        marginTop: 10,
-    },
-    sunDataItem: {
-        backgroundColor: 'white',
-        flexDirection: 'row',
         alignItems: 'center',
-        width: '50%',
-        justifyContent: 'space-evenly',
+        justifyContent: 'center',
+        borderRadius: 10,
     },
+    item2: {
+        flex: 1,
+        backgroundColor: 'rgba(0, 0, 0, 0.1)',
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 10,
+        marginVertical: 10,
+    },
+    whiteText: {
+        color: 'white',
+    },
+    grayText: {
+        color: 'gray',
+    },
+    cityInput: {
+        margin: 20,
+        fontSize: 30,
+    },
+    unitText: {
+        fontSize: 15,
+        color: 'white',
+    },
+    weatherIcon: {
+        margin: 20,
+    },
+    timeText: {
+        margin: 10,
+        fontSize: 20,
+    },
+    Text20: {
+        fontSize: 40,
+        marginTop: 10,
+    }
 });
 
 export default styles;
