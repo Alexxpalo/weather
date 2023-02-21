@@ -16,13 +16,12 @@ export default function App() {
   const [location, setLocation] = useState("Oulu");
   const [locationLat, setLocationLat] = useState(65.01);
   const [locationLon, setLocationLon] = useState(25.47);
-  const [date, setDate] = useState();
   const [time, setTime] = useState();
   const [sunrise, setSunrise] = useState();
   const [sunset, setSunset] = useState();
 
   const getWeather = async () => {
-    const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${locationLat}&longitude=${locationLon}&hourly=temperature_2m&daily=weathercode,temperature_2m_max,temperature_2m_min,sunrise,sunset&current_weather=true&timezone=Europe%2FHelsinki`);
+    const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${locationLat}&longitude=${locationLon}&hourly=temperature_2m,windspeed_10m&daily=sunrise,sunset&current_weather=true&timezone=Europe%2FHelsinki`);
     const json = await response.json();
     setData(json);
   }
@@ -34,8 +33,8 @@ export default function App() {
 
   useEffect(() => {
     if (data.current_weather) {
+      const current_time_index = data.hourly.time.indexOf(data.current_weather.time);
       const weatherDate = new Date(data.current_weather.time);
-      const date = weatherDate.toLocaleDateString('fi-FI', { weekday: 'long' });
       const time = weatherDate.toLocaleTimeString('fi-FI', { hour: '2-digit', minute: '2-digit' });
       const sunriseDate = new Date(data.daily.sunrise[0]);
       const sunrise = sunriseDate.toLocaleTimeString('fi-FI', { hour: '2-digit', minute: '2-digit' });
@@ -43,8 +42,9 @@ export default function App() {
       const sunset = sunsetDate.toLocaleTimeString('fi-FI', { hour: '2-digit', minute: '2-digit' });
       setSunrise(sunrise);
       setSunset(sunset);
-      setDate(date);
       setTime(time);
+      console.log(data.hourly.temperature_2m[current_time_index+1]);
+      console.log(data.hourly.temperature_2m[current_time_index+2]);
     }
   }, [data]);
 
@@ -82,20 +82,39 @@ export default function App() {
             </View>
 
             <View style={styles.item1}>
-              <Text style={[styles.grayText, styles.timeText]}>{time}</Text>
+              <View style={styles.setRow}>
+                <Text style={[styles.grayText, styles.timeText]}>{time}</Text>
+                <Text style={[styles.grayText, styles.timeText]}>14.00</Text>
+                <Text style={[styles.grayText, styles.timeText]}>15.00</Text>
+              </View>
             </View>
 
             <View style={styles.item2}>
-              <Text style={[styles.whiteText, styles.Text20]}>{data.current_weather.temperature}</Text><Text style={styles.unitText}>°C</Text>
+              <View style={styles.setRow}>
+                <Text style={[styles.whiteText, styles.Text30]}>{data.current_weather.temperature}</Text>
+                <Text style={[styles.whiteText, styles.Text30]}>-9.9</Text>
+                <Text style={[styles.whiteText, styles.Text30]}>-9.3</Text>
+              </View>
+              <Text style={styles.unitText}>°C</Text>
             </View>
 
             <View style={styles.item2}>
-              <Text style={[styles.whiteText, styles.Text20]}>{data.current_weather.windspeed}</Text><Text style={styles.unitText}>m/s</Text>
+              <View style={styles.setRow}>
+                <Text style={[styles.whiteText, styles.Text30]}>{data.current_weather.windspeed}</Text>
+                <Text style={[styles.whiteText, styles.Text30]}>2.9</Text>
+                <Text style={[styles.whiteText, styles.Text30]}>2.3</Text>
+              </View>
+              <Text style={styles.unitText}>m/s</Text>
             </View>
 
             <View style={styles.item2}>
               <Text style={styles.whiteText}>Auringon nousu ja lasku huomenna</Text>
-              <Text style={styles.whiteText}><MCI name="weather-sunset-up" size={32} />{sunrise} - {sunset}<MCI name="weather-sunset-down" size={32} /></Text>
+              <View style={styles.setRow}>
+                <MCI name="weather-sunset-up" size={32} color="white" />
+                <Text style={[styles.whiteText, styles.Text30]}>{sunrise}</Text>
+                <Text style={[styles.whiteText, styles.Text30]}>{sunset}</Text>
+                <MCI name="weather-sunset-down" size={32} color="white" />
+              </View>
             </View>
           </View>
         </>

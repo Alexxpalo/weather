@@ -40,6 +40,14 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         marginVertical: 10,
     },
+    setRow: {
+        width: '100%',
+        paddingHorizontal: 5,
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-around',
+    },
     whiteText: {
         color: 'white',
     },
@@ -61,8 +69,8 @@ const styles = StyleSheet.create({
         margin: 10,
         fontSize: 20,
     },
-    Text20: {
-        fontSize: 40,
+    Text30: {
+        fontSize: 30,
         marginTop: 10,
     }
 });
