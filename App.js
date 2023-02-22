@@ -32,12 +32,12 @@ export default function App() {
   useEffect(() => {
     const savedCity = async () => {
       const city = await SecureStore.getItemAsync('city');
-      const locationLat = await SecureStore.getItemAsync('locationLat');
-      const locationLon = await SecureStore.getItemAsync('locationLon');
+      const storedlocationLat = await SecureStore.getItemAsync('locationLat');
+      const storedlocationLon = await SecureStore.getItemAsync('locationLon');
       if (city) {
         setLocation(city);
-        setLocationLat(locationLat);
-        setLocationLon(locationLon);
+        setLocationLat(storedlocationLat);
+        setLocationLon(storedlocationLon);
       } else {
         setLocation("Oulu");
         setLocationLat(65.0121);
