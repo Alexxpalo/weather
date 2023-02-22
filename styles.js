@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     weatherIconImage: {
         textAlign: 'center',
         width: 'auto',
-        textShadowColor: 'rgba(0, 0, 0, 0.75))',
+        textShadowColor: 'rgba(0, 0, 0, 0.75)',
         textShadowRadius: 2,
         textShadowOffset: { width: 0, height: 0 }
     },

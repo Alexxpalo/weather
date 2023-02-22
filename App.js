@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Text, View, TextInput, Alert } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
+import * as SecureStore from 'expo-secure-store';
 
 import MCI from '@expo/vector-icons/MaterialCommunityIcons';
 
@@ -8,22 +9,52 @@ import styles from './styles.js';
 import Location from './assets/citycoordinates.json';
 import WeatherCodeCard from './components/WeatherCodeCard';
 
+async function saveCity(city) {
+  try {
+    await SecureStore.setItemAsync('city', city);
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+async function getCity() {
+  try {
+    const city = await SecureStore.getItemAsync('city');
+    if (city !== null) {
+      return city;
+    }
+  } catch (e) {
+    console.log(e);
+  }
+}
+
 export default function App() {
 
   const [data, setData] = useState([]);
   const [pickedData, setPickedData] = useState({});
-  const [location, setLocation] = useState("Oulu");
+  const [location, setLocation] = useState("");
   const [locationLat, setLocationLat] = useState(65.01);
   const [locationLon, setLocationLon] = useState(25.47);
   const [sunrise, setSunrise] = useState();
   const [sunset, setSunset] = useState();
+
+  useEffect(() => {
+    const savedCity = async () => {
+      const city = await getCity();
+      if (city) {
+        setLocation(city);
+      } else {
+        setLocation("Oulu");
+      }
+    };
+    savedCity();
+  }, []);
 
   const getWeather = async () => {
     const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${locationLat}&longitude=${locationLon}&hourly=temperature_2m,windspeed_10m&daily=sunrise,sunset&current_weather=true&timezone=Europe%2FHelsinki`);
     const json = await response.json();
     setData(json);
   }
-
 
   useEffect(() => {
     getWeather();
@@ -56,6 +87,7 @@ export default function App() {
   const getLocation = () => {
     const selectedLocation = Location.find(loc => loc.City === location);
     if (selectedLocation) {
+      saveCity(location);
       setLocationLat(selectedLocation.Coordinates[0]);
       setLocationLon(selectedLocation.Coordinates[1]);
     } else {
