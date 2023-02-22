@@ -9,20 +9,11 @@ import styles from './styles.js';
 import Location from './assets/citycoordinates.json';
 import WeatherCodeCard from './components/WeatherCodeCard';
 
-async function saveCity(city) {
+async function saveCity(city, locationLat, locationLon) {
   try {
     await SecureStore.setItemAsync('city', city);
-  } catch (e) {
-    console.log(e);
-  }
-}
-
-async function getCity() {
-  try {
-    const city = await SecureStore.getItemAsync('city');
-    if (city !== null) {
-      return city;
-    }
+    await SecureStore.setItemAsync('locationLat', locationLat);
+    await SecureStore.setItemAsync('locationLon', locationLon);
   } catch (e) {
     console.log(e);
   }
@@ -33,18 +24,24 @@ export default function App() {
   const [data, setData] = useState([]);
   const [pickedData, setPickedData] = useState({});
   const [location, setLocation] = useState("");
-  const [locationLat, setLocationLat] = useState(65.01);
-  const [locationLon, setLocationLon] = useState(25.47);
+  const [locationLat, setLocationLat] = useState(0);
+  const [locationLon, setLocationLon] = useState(0);
   const [sunrise, setSunrise] = useState();
   const [sunset, setSunset] = useState();
 
   useEffect(() => {
     const savedCity = async () => {
-      const city = await getCity();
+      const city = await SecureStore.getItemAsync('city');
+      const locationLat = await SecureStore.getItemAsync('locationLat');
+      const locationLon = await SecureStore.getItemAsync('locationLon');
       if (city) {
         setLocation(city);
+        setLocationLat(locationLat);
+        setLocationLon(locationLon);
       } else {
         setLocation("Oulu");
+        setLocationLat(65.0121);
+        setLocationLon(25.4651);
       }
     };
     savedCity();
@@ -87,7 +84,7 @@ export default function App() {
   const getLocation = () => {
     const selectedLocation = Location.find(loc => loc.City === location);
     if (selectedLocation) {
-      saveCity(location);
+      saveCity(location, selectedLocation.Coordinates[0], selectedLocation.Coordinates[1]);
       setLocationLat(selectedLocation.Coordinates[0]);
       setLocationLon(selectedLocation.Coordinates[1]);
     } else {

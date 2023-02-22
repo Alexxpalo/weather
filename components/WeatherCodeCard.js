@@ -4,7 +4,6 @@ import weathercodenames from '../assets/weathercodes.json';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 class WeatherCodeCard extends Component {
-
     render() {
 
         return(
