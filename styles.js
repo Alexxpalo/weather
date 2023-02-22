@@ -48,6 +48,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-around',
     },
+    weatherIconImage: {
+        textAlign: 'center',
+        width: 45,
+        textShadowRadius: 4,
+        textShadowOffset: { width: 0, height: 0 }
+    },
     whiteText: {
         color: 'white',
     },
