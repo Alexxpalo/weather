@@ -9,7 +9,7 @@ class WeatherCodeCard extends Component {
 
         return(
             <>
-            <Ionicons style={styles.weatherIconImage} name={weathercodenames[this.props.data][1]} size={32} color={weathercodenames[this.props.data][2]}/>
+            <Ionicons style={styles.weatherIconImage} name={weathercodenames[this.props.data][1]} size={64} color={weathercodenames[this.props.data][2]}/>
             </>
         );
     }
